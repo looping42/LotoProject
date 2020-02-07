@@ -6,6 +6,7 @@ import routes from './routes/index';
 import users from './routes/user';
 
 var app = express();
+var config = require('./config')();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -15,6 +16,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
+
+app.use(config.port, function () {
+    console.log('Express server listening on port ' + config.port);
+});
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
