@@ -12,7 +12,7 @@ var getData = function () {
     }
     return data;
 }
-
+var test = '';
 router.get('/', (req: express.Request, res: express.Response) => {
     res.render('index', { title: 'Express', "data": getData() });
 });
