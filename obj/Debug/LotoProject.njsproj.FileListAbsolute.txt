@@ -1,2 +1,4 @@
 C:\Users\denis\source\repos\Projet Node Loto\LotoProject\obj\Debug\LotoProject.njsprojAssemblyReference.cache
 C:\Users\denis\source\repos\Projet Node Loto\LotoProject\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\denis\source\repos\NodeLoto2\LotoProject\obj\Debug\LotoProject.njsprojAssemblyReference.cache
+C:\Users\denis\source\repos\NodeLoto2\LotoProject\bin\Microsoft.NodejsTools.WebRole.dll

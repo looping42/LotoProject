@@ -34,8 +34,12 @@
     <None Include="routes\index.ts" />
     <None Include="routes\user.ts" />
     <Content Include="config\index.js" />
-    <Content Include="data\2008_2018.csv" />
-    <Content Include="data\loto_201911.csv" />
+    <Content Include="data\loto\lotoAvant2008.csv" />
+    <Content Include="data\loto\loto_201902to201910.csv" />
+    <Content Include="data\loto\nouveau_loto2017to2019.csv" />
+    <Content Include="data\super loto\nouveau_superloto2008to2017.csv" />
+    <Content Include="data\super loto\sloto2008.csv" />
+    <Content Include="data\super loto\superloto2017to2019.csv" />
     <Content Include="tsconfig.json" />
     <Content Include="package.json" />
     <Content Include="public\stylesheets\main.css" />
@@ -47,6 +51,10 @@
   <ItemGroup>
     <Folder Include="data\" />
     <Folder Include="config\" />
+    <Folder Include="data\loto\" />
+    <Folder Include="data\grandLotoDeNoel\" />
+    <Folder Include="data\grandLoto\" />
+    <Folder Include="data\super loto\" />
     <Folder Include="public\" />
     <Folder Include="public\images\" />
     <Folder Include="public\javascripts\" />

@@ -16,18 +16,6 @@ app.use('/users', user_1.default);
 app.use(config.port, function () {
     console.log('Express server listening on port ' + config.port);
 });
-app.get('/', function (req, res) {
-    res.setHeader('Content-Type', 'text/plain');
-    res.send('Vous �tes � l\'accueil, que puis-je pour vous ?');
-});
-app.get('/sous-sol', function (req, res) {
-    res.setHeader('Content-Type', 'text/plain');
-    res.send('Vous �tes dans la cave � vins, ces bouteilles sont � moi !');
-});
-app.get('/etage/1/chambre', function (req, res) {
-    res.setHeader('Content-Type', 'text/plain');
-    res.send('H� ho, c\'est priv� ici !');
-});
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
     var err = new Error('Not Found');

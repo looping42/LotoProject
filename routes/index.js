@@ -13,6 +13,7 @@ var getData = function () {
     };
     return data;
 };
+var test = '';
 router.get('/', (req, res) => {
     res.render('index', { title: 'Express', "data": getData() });
 });
